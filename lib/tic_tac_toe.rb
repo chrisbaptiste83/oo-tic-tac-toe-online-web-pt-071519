@@ -87,7 +87,9 @@ end
 def over? 
   draw? || won? || full? 
 end 
- 
+
+def winner 
+  
   
 end 
 
