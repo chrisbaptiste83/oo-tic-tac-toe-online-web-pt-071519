@@ -65,8 +65,7 @@ end
       move(index, char)
       display_board
     else
-         puts "Please enter 1-9:"
-    input = gets.strip
+       turn
     end
 end
  
