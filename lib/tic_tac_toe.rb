@@ -1,5 +1,5 @@
-
-
+require 'pry'
+    
 class TicTacToe 
   def initialize
     @board = Array.new(9," ") 
@@ -63,7 +63,9 @@ end
     char = current_player
     if valid_move?(index)
       move(index, char)
-      display_board
+   
+   binding.pry 
+   display_board
     else
        turn
     end
