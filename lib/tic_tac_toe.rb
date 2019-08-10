@@ -66,8 +66,6 @@ end
       move(index, current_player)
     end
   display_board
-end
-
     end
 end
  
