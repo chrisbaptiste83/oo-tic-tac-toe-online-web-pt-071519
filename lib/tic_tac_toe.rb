@@ -94,7 +94,8 @@ def winner
     else
       nil
     end
-  end
+  end 
+  
   def play
     while over? == false
     	turn
