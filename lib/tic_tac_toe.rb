@@ -1,4 +1,4 @@
-require 'pry'
+
     
 class TicTacToe 
   def initialize
@@ -63,8 +63,6 @@ end
     char = current_player
     if valid_move?(index)
       move(index, char)
-   
-   binding.pry 
    display_board
     else
        turn
