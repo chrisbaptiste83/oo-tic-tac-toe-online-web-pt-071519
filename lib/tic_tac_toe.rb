@@ -53,17 +53,17 @@ def current_player
 end 
 
   def turn
-     puts "Please enter 1-9:"
+      puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
+    player = current_player
     if valid_move?(index)
-  token = current_player
-      move(index, token)
+      move(index, player)
       display_board
     else
       turn
     end
-  end
+end
  
  def full? 
   @board.all? {|index| index == "X" || index == "O"}
