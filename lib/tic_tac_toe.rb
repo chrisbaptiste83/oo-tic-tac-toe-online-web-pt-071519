@@ -65,7 +65,7 @@ end
       move(index, char)
       display_board
     else
-      turn
+      self.turn
     end
 end
  
