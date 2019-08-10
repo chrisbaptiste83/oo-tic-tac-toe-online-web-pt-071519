@@ -60,10 +60,11 @@ end
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
+    char = current_player
    if !valid_move?(index)
       turn
     else 
-      move(index, current_player)
+      move(index, char)
     end
   display_board
     end
